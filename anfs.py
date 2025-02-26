@@ -46,7 +46,7 @@ def scan_ports(ip, ports=[22, 80, 443, 3389]):
 
 
 def main():
-    network = "192.168.187.229/24"  # Change to your network range
+    network = "192.168.1.0/24"  # Change to your network range
     print(f"Scanning network: {network}\n")
     devices = scan_network(network)
     
